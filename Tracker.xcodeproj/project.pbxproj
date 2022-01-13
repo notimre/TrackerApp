@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF14A0B92790DA880013E111 /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF14A0B82790DA880013E111 /* Locations.swift */; };
+		CF14A0BB2790E6AF0013E111 /* WorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF14A0BA2790E6AF0013E111 /* WorldView.swift */; };
+		CF14A0BD2790EF490013E111 /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF14A0BC2790EF490013E111 /* Tip.swift */; };
+		CF14A0BF2790EFF60013E111 /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF14A0BE2790EFF60013E111 /* TipsView.swift */; };
 		CF600E70278E3FF90028FE50 /* TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF600E6F278E3FF90028FE50 /* TrackerApp.swift */; };
 		CF600E72278E3FF90028FE50 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF600E71278E3FF90028FE50 /* ContentView.swift */; };
 		CF600E74278E3FF90028FE50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF600E73278E3FF90028FE50 /* Assets.xcassets */; };
@@ -17,6 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CF14A0B82790DA880013E111 /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
+		CF14A0BA2790E6AF0013E111 /* WorldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldView.swift; sourceTree = "<group>"; };
+		CF14A0BC2790EF490013E111 /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
+		CF14A0BE2790EFF60013E111 /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
 		CF600E6C278E3FF90028FE50 /* Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF600E6F278E3FF90028FE50 /* TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerApp.swift; sourceTree = "<group>"; };
 		CF600E71278E3FF90028FE50 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,7 +66,11 @@
 			isa = PBXGroup;
 			children = (
 				CF600E6F278E3FF90028FE50 /* TrackerApp.swift */,
+				CF14A0BA2790E6AF0013E111 /* WorldView.swift */,
 				CF600E71278E3FF90028FE50 /* ContentView.swift */,
+				CF14A0BC2790EF490013E111 /* Tip.swift */,
+				CF14A0BE2790EFF60013E111 /* TipsView.swift */,
+				CF14A0B82790DA880013E111 /* Locations.swift */,
 				CF600E81278E508D0028FE50 /* Location.swift */,
 				CF600E73278E3FF90028FE50 /* Assets.xcassets */,
 				CF600E7D278E460A0028FE50 /* locations.json */,
@@ -150,6 +162,10 @@
 			files = (
 				CF600E72278E3FF90028FE50 /* ContentView.swift in Sources */,
 				CF600E82278E508D0028FE50 /* Location.swift in Sources */,
+				CF14A0BB2790E6AF0013E111 /* WorldView.swift in Sources */,
+				CF14A0BD2790EF490013E111 /* Tip.swift in Sources */,
+				CF14A0BF2790EFF60013E111 /* TipsView.swift in Sources */,
+				CF14A0B92790DA880013E111 /* Locations.swift in Sources */,
 				CF600E70278E3FF90028FE50 /* TrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
